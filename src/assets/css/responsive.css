@@ -1,0 +1,101 @@
+
+@media only screen and (min-width:320px) and (max-width:767px)
+{
+    .scheduled_btns{flex-direction: column;  align-items:center;}
+    .scheduled_btns button{margin-bottom: 16px;}
+    .flexible-content .navbar ul li a{border:0px !important;}
+    .add_newvehicle form ul li{
+      width: 100%; margin-right:0px !important}
+      .content_section{padding: 10px;}
+      .sub_btn button {
+        color: #fff;
+        font-size: 15px !important;
+        height: 42px !important;
+        line-height: 0;
+        margin-right: 2px !important;
+        padding: 12px !important;
+        width: 112px !important;
+      }
+      .add_newvehicle form {
+        margin-left: auto;
+        margin-right: auto;
+        max-width: 400px;
+      }
+      .addvehicle_detail form{max-width: 100% !important;}
+   .login_lft_section{display:none;}
+   .rgt_section , .rgt_cen{height:100% !important; margin-left: 0px !important;}
+   .rgt_section{margin:30px 0px;}
+   .health_index_sec{padding: 10px;}
+   .health_index_lst p{min-height:100% !important;}
+   .main_histry_lst .rgt_mh{align-self: center;}
+   .main_histry_lst{flex-direction: column;}
+   .main_histry_lst .lft_mh {margin-bottom: 14px;  text-align: center;}
+   .vehicle_lsts_sec{padding: 40px 0 30px !important;}
+   .service_inprogress_lst li label{max-width: 100% !important;}
+   .service_inprogress_lst li span{ padding-left:0px !important;}
+   .serv_prog_btn{margin-left:0px !important;}
+   .vehicle_lsts_sec {
+    padding-left:15px !important;
+    padding-right:15px !important;
+  }
+}
+@media only screen and (min-width:320px) and (max-width:991px)
+{
+  #navbarSupportedContent .dropdown {position: fixed;right: 16px; top: 17px; }
+  .cart_info.nav-item.ripple-parent { font-size: 25px; position: fixed; right: 155px;  top: 9px;  }
+  .flexible-content .navbar-nav{border:1px solid #fff; margin-top:10px;}
+  .flexible-content .nav-item{border-bottom: 1px solid #fff; padding:10px 0px ;}
+  body .flexible-content .nav-item.ripple-parent.cart_info{padding: 0px !important; border:0px !important;}
+  #navbarSupportedContent .dropdown{margin-right:0px !important;}
+  .prof_ico {position: fixed;  right: 117px;top: 15px;}
+  .c-pane-container {
+    margin-bottom: 21px;
+    width: 100%;
+}
+}
+@media only screen and (min-width:1200px) and (max-width:1384px)
+{
+.vehicle_lst{padding:15px 2px !important;}
+.vehicle_lst button{width:100px !important;}
+.vehicle_name , .vehicle_no {font-size:16px !important;}
+.vehicle_cont{padding:6px !important;}
+}
+
+@media only screen and (min-width:1200px) and (max-width:1374px)
+{
+.add_newvehicle form ul li{
+  width: 47%;
+  margin-right: 3%;
+}
+}
+
+@media only screen and (min-width:768px) and (max-width:1104px)
+{
+.add_newvehicle form ul li{
+  width: 47%;
+  margin-right: 3%;
+}
+}
+@media only screen and (min-width:320px) and (max-width:850px)
+{
+.add_newvehicle form ul li label{ font-size:15px;}
+}
+
+@media only screen and (min-width:320px) and (max-width:479px)
+{
+.addvehicle_detail ul li label , .addvehicle_detail ul li span{width:100%; padding-left:0px !important;}
+
+.schedule_app {
+  font-size: 15px !important;
+  margin-right: 8px !important;
+  padding: 5px 0 !important;
+  width: 146px;
+}
+
+.confirm-btn {
+  background: #2ecc71 none repeat scroll 0 0;
+  font-size: 15px !important;
+  height: 56px !important;
+  width: 130px !important;
+}
+}
